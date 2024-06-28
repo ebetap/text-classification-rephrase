@@ -1,0 +1,33 @@
+{
+  "name": "text-classification-rephrase",
+  "version": "1.0.0",
+  "description": "A framework to classify and rephrase text/comments, turning negative comments into positive/encouraging ones and enhancing positive comments. Supports multiple languages including Indonesian.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ebetap/text-classification-rephrase.git"
+  },
+  "keywords": [
+    "text-classification",
+    "text-rephrase",
+    "sentiment-analysis",
+    "tensorflow.js",
+    "multilingual"
+  ],
+  "author": "Beta Priyoko",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.0.0",
+    "@tensorflow/tfjs-node": "^4.0.0",
+    "franc": "^6.1.0",
+    "nlp.js": "^4.21.0",
+    "word2vec": "^1.1.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
